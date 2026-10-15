@@ -1,0 +1,24 @@
+{
+  "name": "iesalixar/ud01-lab01-php",
+  "description": "API de avisos de seguridad para reconocimiento de proyectos",
+  "type": "project",
+  "require": {
+    "php": "^8.3",
+    "slim/slim": "^4.14",
+    "slim/psr7": "^1.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.5"
+  },
+  "autoload": {
+    "psr-4": {"App\\": "src/"}
+  },
+  "autoload-dev": {
+    "psr-4": {"Tests\\": "tests/"}
+  },
+  "scripts": {
+    "start": "php -S localhost:8080 -t public public/router.php",
+    "test": "phpunit",
+    "build": "composer dump-autoload --optimize --no-dev"
+  }
+}

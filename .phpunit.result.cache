@@ -1,0 +1,1 @@
+{"version":2,"defects":[],"times":{"Tests\\NoticeServiceTest::testListsSeedNotices":0.003,"Tests\\NoticeServiceTest::testCreatesNotice":0.002}}
